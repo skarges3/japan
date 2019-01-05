@@ -48,6 +48,12 @@ nav a,
 p a {
   color: $black;
   text-decoration: none;
+}
+p a {
+  border-bottom: 2px solid $red;
+}
+
+nav a.selected {
   border-bottom: 3px solid $red;
 }
 
@@ -84,7 +90,8 @@ div.post {
     max-width: 540px;
     margin-bottom: 40px;
   }
-  img {
-    max-width: 780px;
-  }
+}
+
+img {
+  max-width: 780px;
 }
