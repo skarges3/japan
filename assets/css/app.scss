@@ -1,0 +1,80 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,700');
+
+$background: #f7f9ff;
+$black: #0c0c0c;
+$red: #ff3500;
+$sans: 'Roboto', sans-serif;
+
+body {
+  background: $background;
+  font-family: $sans;
+  font-weight: 300;
+  color: $black;
+  max-width: 780px;
+  margin: 80px auto;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  a {
+    margin-left: 10px;
+  }
+}
+
+nav a,
+p a {
+  color: $black;
+  text-decoration: none;
+  border-bottom: 3px solid $red;
+}
+
+section {
+  margin: 40px 0 0 0;
+}
+
+p.read-more {
+  font-weight: 700;
+}
+
+div.blog-posts {
+  max-width: 540px;
+  a {
+    color: $black;
+    text-decoration: none;
+    display: block;
+    margin: 0 0 40px 0;
+  }
+}
+
+div.circle {
+  position: fixed;
+  bottom: -250px;
+  right: -250px;
+  width: 500px;
+  height: 500px;
+  background-color: $red;
+  border-radius: 50%;
+}
