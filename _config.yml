@@ -21,8 +21,8 @@ defaults:
     layout: post
 email: skarges3@gmail.com
 description: A blog about Japan.
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 twitter_username: spencerkarges
 github_username: skarges3
 markdown: kramdown
